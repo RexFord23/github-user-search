@@ -1,4 +1,3 @@
-import api from "./services/githubAPI";
 import Search from "./components/search";
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
       <h1>GitHub User Search</h1>
       <p>Search for GitHub profiles using the GitHub API.</p>
     </div>
-    <api />
-    <search />
+    <Search />
     </>
   );
 }
